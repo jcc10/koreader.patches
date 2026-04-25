@@ -24,7 +24,8 @@ function FileChooser:onBack()
             return true
         end
     elseif back_in_filemanager == "parent_folder" then
-        self:onFolderUp()
+        -- self:changeToPath(string.format("%s/..", self.path)) -- Why force it when we have the below function?
+        self:onFolderUp() -- This is it... It's so stupid.
         return true
     end
 end
