@@ -1,6 +1,6 @@
 --[[
     copied from https://harsh17.in/kindle/
-    untested right now, should do what my script was meant to do.
+    Tested on a "Special" Kindle 3G running KO Reader 2026.03, and a "Normal" Kindle 4th Gen running KO Reader 20206.03. 
 ]]--
 
 local Device = require("device")
